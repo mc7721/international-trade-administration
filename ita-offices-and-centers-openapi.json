@@ -1,0 +1,66 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "ITA Offices And Centers",
+        "description": "This API provides contact and address information for all of ITA???s domestic and international export assistance centers. Incorporating these listings into directories of business counseling services is one example of how developers can use this API to assist exporters.",
+        "termsOfService": "http:\/\/developer.trade.gov\/tos.html"
+    },
+    "servers": [
+        "api.trade.gov\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Office": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "post": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "office_name": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "state": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "city": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "address": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "email": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "fax": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "mail_instructions": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "phone": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "post_type": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
