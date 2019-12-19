@@ -1,0 +1,94 @@
+{
+    "name": "International Trade Administration",
+    "description": "The International Trade Administration (ITA) strengthens the competitiveness of U.S. industry, promotes trade and investment, and ensures fair trade through the rigorous enforcement of our trade laws and agreements. ITA works to improve the global busi...",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11180-international-trade-administration.jpg",
+    "tags": [
+        "api provider",
+        "general data",
+        "have api",
+        "marketplaces"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/international-trade-administration\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Trade.gov Market Research Library",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11180-international-trade-administration.jpg",
+            "humanURL": "http:\/\/trade.gov",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/trade-gov-market-research-library-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "ITA Offices And Centers",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11180-international-trade-administration.jpg",
+            "humanURL": "http:\/\/trade.gov",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ita-offices-and-centers-openapi.json"
+                }
+            ]
+        },
+        {
+            "name": "International Trade Administration Trade Events API",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/11180-international-trade-administration.jpg",
+            "humanURL": "http:\/\/trade.gov",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/international-trade-administration-trade-events-api-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "http:\/\/api.trade.gov\/"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/international-trade-administration\/timeline"
+        },
+        {
+            "type": "Developers",
+            "url": "http:\/\/developer.trade.gov\/"
+        },
+        {
+            "type": "Email",
+            "url": "petition.counseling@trade.gov"
+        },
+        {
+            "type": "Email",
+            "url": "tfac@trade.gov"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/TradeGov"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/trade.gov"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/trade.gov\/"
+        }
+    ]
+}
