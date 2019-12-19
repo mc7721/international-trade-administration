@@ -1,0 +1,50 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0",
+        "title": "Trade.gov Market Research Library",
+        "description": "This API provides metadata for country and industry reports that are produced by ITA???s trade experts and are available in ITA???s online market research library. ",
+        "termsOfService": "http:\/\/developer.trade.gov\/tos.html"
+    },
+    "servers": [
+        "httpapi.trade.gov\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": {
+            "Research": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "countries": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "description": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "expiration_date": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "industry": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "report_type": {
+                        "description": "",
+                        "type": ""
+                    },
+                    "title": {
+                        "description": "",
+                        "type": ""
+                    }
+                }
+            }
+        }
+    }
+}
