@@ -8,8 +8,8 @@
         "have api",
         "marketplaces"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/international-trade-administration\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -22,8 +22,8 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/trade-gov-market-research-library-openapi.json"
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/international-trade-administration\/master\/trade-gov-market-research-library-postman-collection.json"
                 }
             ]
         },
@@ -36,8 +36,8 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/ita-offices-and-centers-openapi.json"
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/international-trade-administration\/master\/ita-offices-and-centers-postman-collection.json"
                 }
             ]
         },
@@ -50,14 +50,18 @@
             "tags": [],
             "properties": [
                 {
-                    "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/international-trade-administration-trade-events-api-openapi.json"
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/international-trade-administration\/master\/international-trade-administration-trade-events-api-postman-collection.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Base",
             "url": "http:\/\/api.trade.gov\/"
